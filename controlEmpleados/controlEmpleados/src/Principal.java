@@ -48,7 +48,7 @@ public class Principal extends JFrame implements ActionListener{
 	 setVisible(true);
    }
 
-	public void actionPerformed(ActionEvent e) //acción cuando pulsamos botones 
+	public void actionPerformed(ActionEvent e) //acciï¿½n cuando pulsamos botones 
 	    {  	  	
 	    	     if (e.getSource() == b1) 	
 	    	     {	   new VentanaEmple(this);
@@ -70,6 +70,8 @@ public class Principal extends JFrame implements ActionListener{
 	    }
 
 	public static void main(String[] args) {
+		System.out.println("Bienvenido");
+		System.out.println("Adios");
 		 new Principal();
 		}//fin main
    
